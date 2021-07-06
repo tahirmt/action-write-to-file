@@ -1,0 +1,14 @@
+name: 'Write File'
+description: 'Write contents to a file and delete afterwards'
+inputs:
+  contents:
+    description: 'The contents of the file'
+    required: true
+  path:
+    description: 'Output file path'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+  post: 'cleanup.js'
