@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tahirmt/action-write-to-file.git"
+    "url": "git+https://github.com/scoremedia/action-write-to-file.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tahirmt/action-write-to-file/issues"
+    "url": "https://github.com/scoremedia/action-write-to-file/issues"
   },
-  "homepage": "https://github.com/tahirmt/action-write-to-file#readme",
+  "homepage": "https://github.com/scoremedia/action-write-to-file#readme",
   "dependencies": {
     "@actions/core": "^1.4.0"
   }

@@ -1,11 +1,11 @@
 # action-write-to-file
-----
+
 A github action to write contents to a file. This file will be removed when the job is completed
 
 ## Usage
 
 ```
-- uses: tahirmt/action-write-to-file
+- uses: scoremedia/action-write-to-file
   with:
     contents: |
       Contents of the file
